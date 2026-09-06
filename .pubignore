@@ -1,0 +1,13 @@
+test/
+docs/
+tool/
+.dart_tool/
+.idea/
+.env
+.flutter-plugins-dependencies
+.metadata
+AGENTS.md
+build/
+coverage/
+dartface.iml
+pubspec.lock
