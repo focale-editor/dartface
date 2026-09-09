@@ -132,7 +132,12 @@ List<DetectedFace> _detectEncodedInWorker({
   required FaceDetectorOptions options,
 }) {
   try {
-    final imcodec.Image image = imcodec.decodeImage(bytes, maxPixels: options.maximumDecodedPixels);
+    final imcodec.Image image = imcodec
+        .decodeImageData(
+          bytes,
+          maxPixels: options.maximumDecodedPixels,
+        )
+        .toImage();
     return _detectRgbaInWorker(
       rgbaBytes: image.bytes,
       width: image.width,
