@@ -1,6 +1,6 @@
 name: dartface
 description: Offline frontal face detection in Flutter, with image decoding and no machine-learning runtime.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/focale-editor/dartface
 repository: https://github.com/focale-editor/dartface
 
