@@ -4,6 +4,17 @@ version: 0.1.1
 homepage: https://github.com/focale-editor/dartface
 repository: https://github.com/focale-editor/dartface
 
+topics:
+  - face-detection
+  - computer-vision
+  - image-processing
+  - offline
+  - flutter
+
+screenshots:
+  - description: 'A flat illustration of offline face detection and landmark estimation.'
+    path: screenshots/overview.png
+
 environment:
   sdk: '>=3.13.0 <4.0.0'
 

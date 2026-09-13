@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="screenshots/overview.png" alt="Dartface package illustration" width="180">
+</p>
+
 # Dartface
 
 Dartface detects mostly frontal faces in still photographs with a pure Dart detection engine for Flutter. It returns source-pixel bounding boxes, six estimated landmarks, confidence scores, and in-plane rotation without TensorFlow Lite, FFI or platform channels.
@@ -129,3 +133,7 @@ Do not use Dartface as the only control for identity, safety, access, or livenes
 The package architecture and processing pipeline are documented in [`docs/architecture.md`](https://github.com/focale-editor/dartface/blob/main/docs/architecture.md).
 
 The compact cascade parameters are generated from OpenCV's improved frontal-face LBP model. Their separate copyright, license, source revision, and research citation are recorded in [`THIRD_PARTY_NOTICES.md`](https://github.com/focale-editor/dartface/blob/main/THIRD_PARTY_NOTICES.md).
+
+---
+
+Built for **[Focale](https://focale-editor.app)**, an advanced local image editor. Discover what these packages make possible in a real creative workflow.
