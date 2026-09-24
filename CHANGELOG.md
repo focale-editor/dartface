@@ -1,5 +1,10 @@
 # 📰 Dartface changelog
 
+## v0.2.0
+Released on September 24, 2026.
+
+* **BREAKING CHORE**: Updated `imcodec`. ([#ea9f472](https://github.com/focale-editor/dartface/commit/ea9f472))
+
 ## v0.1.2
 Released on September 13, 2026.
 
