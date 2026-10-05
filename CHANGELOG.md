@@ -1,5 +1,10 @@
 # 📰 Dartface changelog
 
+## v0.2.1
+Released on October 5, 2026.
+
+* **DOCS**: Updated package overview screenshot. ([#f693521](https://github.com/focale-editor/dartface/commit/f693521))
+
 ## v0.2.0
 Released on September 24, 2026.
 
